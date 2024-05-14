@@ -176,7 +176,7 @@ nav ul li a:hover::after {
   overflow: hidden;
 }
 
-.work h3 {
+.work h4 {
   color: yellowgreen;
   font-weight: 400;
   text-align: center;
@@ -357,17 +357,16 @@ footer .credit a {
 nav .fa-solid {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 764px) {
   #header {
     background-image: url(images/phone-background.png);
   }
   .header-text {
-    margin-top: 90%;
+    margin-top: 63%;
     font-size: 16px;
   }
   .header-text h1 {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 30px;
   }
   nav .fa-solid {
     display: block;
@@ -427,53 +426,8 @@ nav .fa-solid {
 }
 
 @media (max-width: 450px) {
-  html {code
-    font-size: 80%;
-  }
-}
-
-@media (max-width: 764px) {
-  #header {
-    background-image: url(images/phone-background.png);
-  }
-  .header-text {
-   
-    font-size: 20px;
-   
-  }
-
-  
-  .header-text h1 {
-    font-size: 32px;
-  }
-  nav .fa-solid {
-    display: block;
-    font-size: 30px;
-  }
-  nav ul {
-    background: green;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
-    z-index: 2;
-    transition: right 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 25px;
-  }
-  nav ul .fa-solid {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-  }
-
-  .contact-left {
-    flex-basis: 100%;
+  html {
+    font-size: 85%;
   }
 
   .contact-right {
