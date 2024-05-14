@@ -178,9 +178,10 @@ nav ul li a:hover::after {
 
 .work h4 {
   color: yellowgreen;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
   margin-bottom: 12px;
+  font-size: 17px;
 }
 
 .work img {
